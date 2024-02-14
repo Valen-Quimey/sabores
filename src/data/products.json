@@ -1,0 +1,148 @@
+[
+    {
+      "id": 1,
+      "name": "Empanada de carne",
+      "category": "empanadas",
+      "stock": 50,
+      "description": "Deliciosa empanada rellena de carne picada y condimentos.",
+      "image": "empanada_carne.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Pan casero",
+      "category": "pan",
+      "stock": 100,
+      "description": "Pan recién horneado, crujiente por fuera y suave por dentro.",
+      "image": "pan_casero.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Milanesa napolitana",
+      "category": "milanesas",
+      "stock": 30,
+      "description": "Milanesa de carne cubierta con salsa de tomate, jamón y queso derretido.",
+      "image": "milanesa_napolitana.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Hamburguesa clásica",
+      "category": "hamburguesas",
+      "stock": 60,
+      "description": "Hamburguesa de carne con lechuga, tomate, cebolla y mayonesa.",
+      "image": "hamburguesa_clasica.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Sándwich de pollo",
+      "category": "sándwiches",
+      "stock": 40,
+      "description": "Sándwich de pollo a la parrilla con lechuga, tomate y mayonesa.",
+      "image": "sándwich_pollo.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Ensalada César",
+      "category": "ensaladas",
+      "stock": 20,
+      "description": "Ensalada fresca con lechuga, crutones, pollo a la parrilla y aderezo César.",
+      "image": "ensalada_cesar.jpg"
+    },
+
+    {
+        "id": 7,
+        "name": "Asado",
+        "category": "parrilla",
+        "stock": 15,
+        "description": "Delicioso asado argentino con cortes de carne jugosos y tiernos.",
+        "image": "asado.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Spaghetti Bolognese",
+        "category": "pastas",
+        "stock": 25,
+        "description": "Spaghetti al dente con salsa de tomate y carne picada.",
+        "image": "spaghetti_bolognese.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Pizza sin TACC",
+        "category": "sin-tacc",
+        "stock": 10,
+        "description": "Pizza con masa libre de gluten y toppings deliciosos.",
+        "image": "pizza_sin_tacc.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Tabla de picadas",
+        "category": "picadas",
+        "stock": 8,
+        "description": "Variedad de fiambres, quesos y acompañamientos para compartir.",
+        "image": "picadas.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Tiramisú",
+        "category": "postres",
+        "stock": 20,
+        "description": "Postre italiano con capas de bizcocho, café, mascarpone y cacao.",
+        "image": "tiramisu.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Cerveza artesanal",
+        "category": "bebidas",
+        "stock": 50,
+        "description": "Cerveza elaborada artesanalmente con ingredientes de alta calidad.",
+        "image": "cerveza_artesanal.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Hamburguesa vegetariana",
+        "category": "vegetariano",
+        "stock": 12,
+        "description": "Hamburguesa vegetariana con base de vegetales y legumbres.",
+        "image": "hamburguesa_vegetariana.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Sushi vegano",
+        "category": "vegano",
+        "stock": 8,
+        "description": "Variedad de sushi sin ingredientes de origen animal.",
+        "image": "sushi_vegano.jpg"
+      },
+      {
+        "id": 15,
+        "name": "Frutillas",
+        "category": "frutas",
+        "stock": 40,
+        "description": "Frutillas frescas y jugosas, ideales para postres y meriendas.",
+        "image": "frutillas.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Bife de chorizo",
+        "category": "almuerzos",
+        "stock": 18,
+        "description": "Corte de carne jugoso y sabroso, acompañado de guarniciones.",
+        "image": "bife_chorizo.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Pescado a la plancha",
+        "category": "pescados",
+        "stock": 15,
+        "description": "Pescado fresco y saludable, cocinado a la plancha.",
+        "image": "pescado_plancha.jpg"
+      },
+      {
+        "id": 18,
+        "name": "Mariscos al ajillo",
+        "category": "mariscos",
+        "stock": 10,
+        "description": "Deliciosos mariscos salteados con ajo y aceite de oliva.",
+        "image": "mariscos_ajillo.jpg"
+      }
+  ]
+  
