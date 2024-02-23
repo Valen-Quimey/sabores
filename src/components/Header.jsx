@@ -16,6 +16,7 @@ const styles= StyleSheet.create( {
     container: {
         backgroundColor: colors.green,
         width: "100%",
+        
         paddingTop: 20, // Ajusto el paddingTop 
         alignItems: "center", // Centro horizontalmente
         justifyContent: "center", // Centro verticalmente

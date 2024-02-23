@@ -1,16 +1,19 @@
 import { useEffect, useState } from "react";
-import  {FlatList, Text, View } from "react-native";
+import  {FlatList, Pressable, StyleSheet, Text, View } from "react-native";
 import allProducts from '../data/products.json'
 import ProductItem from "../components/ProductItem";
 import Search from "../components/Search";
 
 
 
-function ItemListCategories({ category}) {
+function ItemListCategories({navigation, route}) {
     //los hooks van arriba de todo y dentro de la función
     const [products, setProducts] = useState([]);
 
     const [keyword, setKeyword] = useState(" ");
+
+    //destructuring
+    const {category} = route.params;
 
     useEffect(()=> {
         if(category) {
@@ -22,14 +25,25 @@ function ItemListCategories({ category}) {
     }, [category, keyword])
 
     return(
-        <View>
-            <Search keyword= {keyword } onSearch= {setKeyword} />
+        <View style= {styles.container} >
+            <Search onSearch= {setKeyword} />
             <FlatList
             data= {products }
-            renderItem={( {item}) => <ProductItem product= {item} />}
+            renderItem={( {item}) => <ProductItem product= {item} navigation= {navigation} /> }
             keyExtractor={(item) => item.id}/>
         </View>
     );
 }
 
 export default ItemListCategories;
+
+const styles= StyleSheet.create({ 
+    container: {
+        flex:1,
+        width:"100%",
+        paddingHorizontal:20,
+        justifyContent:"center", 
+        alignItems:"center"
+    },
+
+});

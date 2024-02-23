@@ -1,148 +1,140 @@
-[
+  [
     {
       "id": 1,
       "name": "Empanada de carne",
       "category": "empanadas",
-      "stock": 50,
-      "description": "Deliciosa empanada rellena de carne picada y condimentos.",
-      "image": "empanada_carne.jpg"
-    },
+      "description": "Deliciosa empanada rellena de carne picada, 3 unidades",
+      "image":"https://www.gourmet.cl/wp-content/uploads/2017/08/empanadas-mariscos-570x330.jpg"    },
     {
       "id": 2,
       "name": "Pan casero",
       "category": "pan",
-      "stock": 100,
       "description": "Pan recién horneado, crujiente por fuera y suave por dentro.",
-      "image": "pan_casero.jpg"
+      "image": "https://s3.ppllstatics.com/diariovasco/www/multimedia/202004/16/media/cortadas/pan-casero-como-hacer-pan-kdDE-U100925325432XOG-1248x770@Diario%20Vasco.jpg"
     },
     {
       "id": 3,
       "name": "Milanesa napolitana",
       "category": "milanesas",
-      "stock": 30,
       "description": "Milanesa de carne cubierta con salsa de tomate, jamón y queso derretido.",
-      "image": "milanesa_napolitana.jpg"
+      "image": "https://imag.bonviveur.com/milanesa-a-la-napolitana.jpg"
     },
     {
       "id": 4,
       "name": "Hamburguesa clásica",
       "category": "hamburguesas",
-      "stock": 60,
       "description": "Hamburguesa de carne con lechuga, tomate, cebolla y mayonesa.",
-      "image": "hamburguesa_clasica.jpg"
+      "image": "https://www.recetasnestle.com.ec/sites/default/files/srh_recipes/4e4293857c03d819e4ae51de1e86d66a.jpg"
     },
     {
       "id": 5,
       "name": "Sándwich de pollo",
       "category": "sándwiches",
-      "stock": 40,
       "description": "Sándwich de pollo a la parrilla con lechuga, tomate y mayonesa.",
-      "image": "sándwich_pollo.jpg"
+      "image": "https://recetasdecocina.elmundo.es/wp-content/uploads/2023/11/sandwich-de-pollo.jpg"
     },
     {
       "id": 6,
       "name": "Ensalada César",
       "category": "ensaladas",
-      "stock": 20,
       "description": "Ensalada fresca con lechuga, crutones, pollo a la parrilla y aderezo César.",
-      "image": "ensalada_cesar.jpg"
+      "image": "https://www.gourmet.cl/wp-content/uploads/2016/09/Ensalada_C%C3%A9sar-web-553x458.jpg"
     },
 
     {
         "id": 7,
-        "name": "Asado",
-        "category": "parrilla",
-        "stock": 15,
-        "description": "Delicioso asado argentino con cortes de carne jugosos y tiernos.",
-        "image": "asado.jpg"
+        "name": "Sandwich de milanesa",
+        "category": "sándwiches",
+        "description": "Sandwich de milanesa de carne o pollo, con lechuga y tomate",
+        "image": "https://www.clarin.com/img/2021/09/06/ZUZbnAZNY_1200x630__1.jpg"
       },
       {
         "id": 8,
         "name": "Spaghetti Bolognese",
         "category": "pastas",
-        "stock": 25,
+
         "description": "Spaghetti al dente con salsa de tomate y carne picada.",
-        "image": "spaghetti_bolognese.jpg"
+        "image": "https://www.arteli.com.mx/blog/recetasarteli/spaghetti-parmesana/images/spaghetti-parmesana.jpg"
       },
       {
         "id": 9,
         "name": "Pizza sin TACC",
         "category": "sin-tacc",
-        "stock": 10,
+
         "description": "Pizza con masa libre de gluten y toppings deliciosos.",
-        "image": "pizza_sin_tacc.jpg"
+        "image": "https://scm-assets.constant.co/scm/unilever/2bb5223be0548fcc55c230aa5f951219/6d05fd25-e221-4764-99db-c79449007c1a.png"
       },
       {
         "id": 10,
         "name": "Tabla de picadas",
         "category": "picadas",
-        "stock": 8,
+
         "description": "Variedad de fiambres, quesos y acompañamientos para compartir.",
-        "image": "picadas.jpg"
+        "image": "https://www.picadaclub.com.ar/static/media/principals.b80f74ed.jpg"
       },
       {
         "id": 11,
-        "name": "Tiramisú",
-        "category": "postres",
-        "stock": 20,
-        "description": "Postre italiano con capas de bizcocho, café, mascarpone y cacao.",
-        "image": "tiramisu.jpg"
+        "name": "Sandwich de jamón y queso",
+        "category": "sándwiches",
+
+        "description": "Sandwich de jamón y queso tipo pebete",
+        "image": "https://cdn0.recetasgratis.net/es/posts/3/4/6/sandwich_de_jamon_y_queso_55643_paso_4_600.jpg"
       },
       {
         "id": 12,
-        "name": "Cerveza artesanal",
+        "name": "Coca Cola 2.25l",
         "category": "bebidas",
-        "stock": 50,
-        "description": "Cerveza elaborada artesanalmente con ingredientes de alta calidad.",
-        "image": "cerveza_artesanal.jpg"
+
+        "description": "Coca cola de dos litros",
+        "image": "https://acdn.mitiendanube.com/stores/861/458/products/340121-a0b76669dba5eacd2e15680457673649-1024-1024.jpg"
       },
       {
         "id": 13,
         "name": "Hamburguesa vegetariana",
         "category": "vegetariano",
-        "stock": 12,
+
         "description": "Hamburguesa vegetariana con base de vegetales y legumbres.",
-        "image": "hamburguesa_vegetariana.jpg"
+        "image": "https://www.recetasveganas.es/wp-content/uploads/2022/12/1-3.png"
       },
       {
         "id": 14,
-        "name": "Sushi vegano",
-        "category": "vegano",
-        "stock": 8,
-        "description": "Variedad de sushi sin ingredientes de origen animal.",
-        "image": "sushi_vegano.jpg"
+        "name": "Tarta de verdura",
+        "category": "vegetariano",
+
+        "description": "Tarta con espinaca y queso.",
+        "image": "https://www.clarin.com/img/2020/06/05/OSoK3fQ0r_360x240__1.jpg"
       },
       {
         "id": 15,
-        "name": "Frutillas",
-        "category": "frutas",
-        "stock": 40,
-        "description": "Frutillas frescas y jugosas, ideales para postres y meriendas.",
-        "image": "frutillas.jpg"
+        "name": "Empanada de jamón y queso",
+        "category": "empanadas",
+
+        "description": "Empanada de jamón y queso, 3 unidades",
+        "image": "https://www.cucinare.tv/wp-content/uploads/2020/01/Empanadas-de-jamon-y-queso.jpg"
       },
       {
         "id": 16,
         "name": "Bife de chorizo",
         "category": "almuerzos",
-        "stock": 18,
+
         "description": "Corte de carne jugoso y sabroso, acompañado de guarniciones.",
-        "image": "bife_chorizo.jpg"
+        "image": "https://cdn.bariloche2000.com/uploads/images/2023/05/2864e2b9-4373-5351-9fe2-3ada4827dc32_mid.jpg"
       },
       {
         "id": 17,
         "name": "Pescado a la plancha",
         "category": "pescados",
-        "stock": 15,
+
         "description": "Pescado fresco y saludable, cocinado a la plancha.",
-        "image": "pescado_plancha.jpg"
+        "image": "https://i.blogs.es/61ffd9/piel-crujiente-pescado-pakus-futurobloguero/450_1000.jpg"
       },
       {
         "id": 18,
-        "name": "Mariscos al ajillo",
-        "category": "mariscos",
-        "stock": 10,
-        "description": "Deliciosos mariscos salteados con ajo y aceite de oliva.",
-        "image": "mariscos_ajillo.jpg"
+        "name": "Coca Cola Zero 2.25l",
+        "category": "bebidas",
+
+        "description": "Coca Cola Zero grande",
+        "image": "https://tusuper.com.ar/image/cache/catalog/P2020/Bebidas/COCA-COLA-ZERO-2.25lts-800x800.jpg"
       }
-  ]
+    ]
   
