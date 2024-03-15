@@ -1,28 +1,24 @@
 import { useEffect, useState } from "react";
-import  {FlatList, Pressable, StyleSheet, Text, View } from "react-native";
-import allProducts from '../data/products.json'
+import  {FlatList, StyleSheet, View } from "react-native";
 import ProductItem from "../components/ProductItem";
-import Search from "../components/Search";
+import Search from "../components/Search"; 
+import  {useSelector} from "react-redux"
 
 
 
-function ItemListCategories({navigation, route}) {
+function ItemListCategories({navigation}) {
     //los hooks van arriba de todo y dentro de la función
     const [products, setProducts] = useState([]);
 
     const [keyword, setKeyword] = useState(" ");
 
-    //destructuring
-    const {category} = route.params;
+    const productsFilteredByCategory = useSelector((state)=> state.shopReducer.value.productsFilteredByCategory);
+    
 
     useEffect(()=> {
-        if(category) {
-            const products= allProducts.filter((product)=> product.category === category)
-            const filteredProducts = products.filter((product)=> product.name.includes(keyword));
-
-            setProducts(filteredProducts)
-        }
-    }, [category, keyword])
+        const productsFiltered = productsFilteredByCategory.filter((product)=> product.name.includes(keyword))
+        setProducts(productsFiltered)
+    }, [productsFilteredByCategory, keyword])
 
     return(
         <View style= {styles.container} >

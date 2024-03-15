@@ -6,6 +6,7 @@ import CartItem from '../components/CartItem'
 const Cart = () => {
     const [cartItems, setCartItems] = useState([])
     
+    
     useEffect(()=>{ 
         setCartItems(allCartItems)
     }, [])
@@ -16,6 +17,7 @@ const Cart = () => {
       data= {cartItems}
       keyExtractor={(cartItem)=> cartItem.id}
       renderItem={({item})=><CartItem item={item}/>}/>
+      
     </View>
   )
 }

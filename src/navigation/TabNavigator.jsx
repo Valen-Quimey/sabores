@@ -4,7 +4,8 @@
     import CartStack from "./CartStack";
 import { StyleSheet, View, Text } from "react-native";
 import { colors } from "../global/colors";
-import { Entypo,  MaterialCommunityIcons } from '@expo/vector-icons';
+import { Entypo,  MaterialCommunityIcons, FontAwesome} from '@expo/vector-icons';
+import OrdersStack from "./OrdersStack";
 
 
     const TabNavigator = () => {
@@ -35,6 +36,19 @@ import { Entypo,  MaterialCommunityIcons } from '@expo/vector-icons';
                             return(
                                 <View style= {styles.tabContainer}>
                                     <MaterialCommunityIcons name="cart" size={30} color= {focused ? "black" : "grey"} />
+                                    <Text style= {{color: focused ? "black" : "grey"}}>Carrito</Text>
+                                </View>
+                            )
+                        }
+                    }}/>
+                    <Tab.Screen name="OrdersStack" 
+                    component= {OrdersStack}
+                    options= { {
+                        tabBarIcon: ({focused}) =>{ 
+                            return(
+                                <View style= {styles.tabContainer}>
+                                    
+                                    <FontAwesome name="list-ul" size={30} color= {focused ? "black" : "grey"} />
                                     <Text style= {{color: focused ? "black" : "grey"}}>Mi pedido</Text>
                                 </View>
                             )
