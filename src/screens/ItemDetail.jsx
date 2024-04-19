@@ -2,12 +2,20 @@ import { StyleSheet, Text, View, Image, Pressable } from 'react-native'
 import React, { useEffect, useState } from 'react'
 import allProducts from '../data/products.json'
 import { colors } from '../global/colors'
+import { useDispatch } from 'react-redux';
+import { addItem } from '../features/shop/cartSlice';
 
 const ItemDetail = ( {navigation, route}) => {
     //para ver el useEffect en pantalla
     const[product, setProduct] = useState(null)
 
-    const  {id} = route.params
+    const  {id} = route.params;
+
+    const dispatch = useDispatch()
+
+    const onAddCart = () => {
+      dispatch(addItem({...product, quantity:1}))
+    }
 
     useEffect(()=>{
         const productFinded = allProducts.find((product)=> product.id === id);
@@ -22,7 +30,7 @@ const ItemDetail = ( {navigation, route}) => {
           <View style= {styles.textContainer}>
             <Text style={ styles.descriptionText}> {product.name}</Text>
             <Text style={ styles.descriptionText}> {product.description}</Text>
-            <Pressable style= {styles.order}> 
+            <Pressable style= {styles.order} onPress= {onAddCart}> 
               <Text style= {styles.orderText}>Hacer pedido</Text>
             </Pressable>
           </View>

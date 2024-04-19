@@ -1,0 +1,1 @@
+export const base_url = "https://sabores-app-d4f16-default-rtdb.firebaseio.com/"
