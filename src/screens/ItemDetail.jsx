@@ -14,7 +14,7 @@ const ItemDetail = ( {navigation, route}) => {
     const dispatch = useDispatch()
 
     const onAddCart = () => {
-      dispatch(addItem({...product, quantity:1}))
+      dispatch(addItem({...product, quantity: 1}))
     }
 
     useEffect(()=>{

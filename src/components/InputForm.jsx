@@ -36,13 +36,12 @@ const styles = StyleSheet.create({
   subtitle: {
     width: "90%",
     fontSize: 16,
-    fontFamily: "InterRegular",
+    
   },
   error: {
     fontSize: 16,
     color: "red",
-    fontFamily: "InterRegular",
-    fontStyle: "italic",
+
   },
   input: {
     width: "90%",
@@ -50,7 +49,6 @@ const styles = StyleSheet.create({
     borderBottomWidth: 3,
     borderBottomColor: colors.green,
     padding: 2,
-    fontFamily: "InterRegular",
     fontSize: 14,
   },
 });

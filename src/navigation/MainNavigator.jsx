@@ -6,15 +6,14 @@ import { NavigationContainer } from "@react-navigation/native";
 import { useDispatch, useSelector } from "react-redux";
 import {
   useGetProfileImageQuery,
-  useGetUserLocationQuery,
 } from "../services/shopService";
 import { setProfileImage, setUser } from "../features/auth/authSlice";
-// import { fetchSession } from "../db";
+import { fetchSession } from "../db";
 
 const MainNavigator = () => {
   const { user, localId } = useSelector((state) => state.authReducer.value);
   const { data } = useGetProfileImageQuery(localId);
-  // const { data: location } = useGetUserLocationQuery(localId);
+  
 
   const dispatch = useDispatch();
 

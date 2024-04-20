@@ -29,12 +29,7 @@ const MyProfile = ({ navigation }) => {
       >
         <Text style={styles.text}>Agregar foto de perfil</Text>
       </Pressable>
-      <Pressable
-        style={styles.button}
-        onPress={() => navigation.navigate("Location Selector")}
-      >
-        <Text style={styles.text}>Mis direcciones</Text>
-      </Pressable>
+    
     </View>
   );
 };
@@ -61,7 +56,6 @@ const styles = StyleSheet.create({
     padding: 8,
   },
   text: {
-    fontFamily: "InterRegular",
     fontSize: 18,
     color: "white",
   },

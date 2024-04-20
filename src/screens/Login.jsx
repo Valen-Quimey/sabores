@@ -6,7 +6,7 @@ import { useLoginMutation } from "../services/authService";
 import { useDispatch } from "react-redux";
 import { setUser } from "../features/auth/authSlice";
 import { loginSchema } from "../validations/loginSchema";
-// import { insertSession } from "../db/";
+import { insertSession } from "../db/";
 
 const Login = ({ navigation }) => {
   const [email, setEmail] = useState("");
